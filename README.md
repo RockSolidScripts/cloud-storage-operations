@@ -49,6 +49,8 @@ cloud-storage-operations
 | dashboards.global.dashboardSelectors | list | `[{"name":"plutono-global","value":"\"true\""}]` | Label selectors for the global Plutono dashboards to be picked up by the global Plutono. |
 | dashboards.global.persesDashboardSelectors | list | `[{"name":"perses.dev/global-resource","value":"\"true\""}]` | Label selectors for the global Perses dashboards to be picked up by the global Perses. |
 | global.commonLabels | object | `{}` | Common labels to add to all resources # |
+| owner-info.service | string | `"netapp-monitoring"` |  |
+| owner-info.support-group | string | `"storage"` |  |
 | persesDashboards.create | bool | `true` | Enables ConfigMap resources with perses dashboards to be created |
 | persesDashboards.dashboardSelectors | list | `[{"name":"perses.dev/resource","value":"\"true\""}]` | Label selectors for the Plutono dashboards to be picked up by Plutono. |
 | prometheusRules.additionalRuleAnnotations | object | `{}` | Additional annotations for PrometheusRule alerts |
