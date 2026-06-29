@@ -88,3 +88,7 @@ persesDashboards:
   dashboardSelectors:
     - name: perses.dev/resource
       value: '"true"'
+
+owner-info:
+  support-group: storage
+  service: netapp-monitoring
